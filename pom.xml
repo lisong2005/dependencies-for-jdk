@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ls.demon.dep</groupId>
+    <groupId>com.lsnju</groupId>
     <artifactId>dependencies-for-jdk-parent</artifactId>
     <version>1.0.0</version>
 
@@ -22,5 +22,34 @@
         <module>ls-dependencies-for-jdk-11</module>
         <module>ls-dependencies-for-jdk-17</module>
     </modules>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git@github.com:lsnju/dependencies-for-jdk.git</connection>
+        <url>git@github.com:lsnju/dependencies-for-jdk.git</url>
+    </scm>
+    <developers>
+        <developer>
+            <name>lsnju</name>
+            <email>ls@lsnju.com</email>
+            <url>https://github.com/lsnju/dependencies-for-jdk</url>
+        </developer>
+    </developers>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
 </project>

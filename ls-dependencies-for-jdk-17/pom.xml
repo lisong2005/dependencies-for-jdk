@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>ls.demon.dep</groupId>
+        <groupId>com.lsnju</groupId>
         <artifactId>dependencies-for-jdk-parent</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
