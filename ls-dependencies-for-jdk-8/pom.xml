@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.lsnju</groupId>
         <artifactId>dependencies-for-jdk-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>ls-dependencies-for-jdk-8</artifactId>
@@ -18,7 +18,7 @@
         <slf4j.version>1.7.36</slf4j.version>
         <logback.verssion>1.2.11</logback.verssion>
         <lombok.verssion>1.18.24</lombok.verssion>
-        <junit5.version>5.9.0</junit5.version>
+        <junit5.version>5.9.1</junit5.version>
     </properties>
 
     <dependencies>
